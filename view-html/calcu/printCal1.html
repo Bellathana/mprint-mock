@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mprint - view supplier</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+  </head>
+  <body>
+
+
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            All Suppliers
+          </h1>
+          <h2 class="subtitle">
+            Total: xx Last updated by: xxx
+          </h2>
+        </div>
+      </div>
+      <div class="tabs is-centered">
+          <ul>
+          <li><a href="../order/viewOrder.html">Order</a></li>
+          <li class="is-active"><a href="../calcu/viewCalcu.html">Calculation</a></li>
+          <li><a href="../supplier/viewSupplier.html">Supplier</a></li>
+          <li><a href="../paper/viewPaper.html">Paper</a></li>
+          <li><a href="../provider/viewProvider.html">Provider</a></li>
+          <li><a href="../customer/viewCustomer.html">Customer</a></li>
+          </ul>
+          </div>
+    </section>
+
+    <div class="tabs is-boxed">
+      <ul>
+        <li class="is-active">
+          <a>
+            <span>Overview</span>
+          </a>
+
+        </li>
+        <li>
+          <a>
+            <span>Layout</span>
+          </a>
+        </li>
+        <li>
+          <a>
+            <span>Costing</span>
+          </a>
+        </li>
+        <li>
+          <a>
+            <span>Summary</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <h2>Job details</h2>
+    <div class="columns">
+      <div class="column">
+    <div class="field is-horizontal">
+      <div class="field-label is-normal">
+        <label class="label">Size W</label>
+      </div>
+      <div class="field-body">
+        <div class="field">
+          <p class="control is-expanded has-icons-left">
+            <input class="input" type="text" placeholder="sizeW">
+          </p>
+        </div>
+      </div>
+      <div class="field-label is-normal">
+        <label class="label">x H</label>
+      </div>
+      <div class="field-body">
+        <div class="field">
+          <p class="control is-expanded has-icons-left">
+            <input class="input" type="text" placeholder="sizeH">
+          </p>
+        </div>
+      </div>
+      <div class="field">
+      <div class="control">
+      <label class="radio">
+        <input type="radio" name="question">
+        inch
+      </label>
+      <label class="radio">
+        <input type="radio" name="question">
+        cm
+      </label>
+      </div>
+      </div>
+    </div>
+
+    <div class="field is-horizontal">
+      <div class="field-label is-normal">
+        <label class="label">Paper Type</label>
+      </div>
+        <div class="field-body">
+          <div class="field is-narrow">
+          <div class="control">
+            <div class="select">
+              <select>
+                <option>Card</option>
+                <option>Sticker</option>
+                <option>Food grade</option>
+                <option>**From database**</option>
+              </select>
+            </div>
+          </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="field is-horizontal">
+          <div class="field-label is-normal">
+            <label class="label">Gram</label>
+          </div>
+          <div class="field-body">
+            <div class="field">
+              <p class="control is-expanded has-icons-left">
+                <input class="input" type="text" placeholder="sizeW">
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="field is-horizontal">
+          <div class="field-label is-normal">
+            <label class="label">Front colours</label>
+          </div>
+            <div class="field-body">
+              <div class="field is-narrow">
+              <div class="control">
+                <div class="select">
+                  <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                  </select>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <div class="field-label is-normal">
+              <label class="label">Back colours</label>
+            </div>
+              <div class="field-body">
+                <div class="field is-narrow">
+                <div class="control">
+                  <div class="select">
+                    <select>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                    </select>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="field is-horizontal">
+              <div class="field-label is-normal">
+                <label class="label">Printing amount</label>
+              </div>
+              <div class="field-body">
+                <div class="field">
+                  <p class="control is-expanded has-icons-left">
+                    <input class="input" type="text" placeholder="sizeW">
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="field is-horizontal">
+              <div class="field-label is-normal">
+                <label class="label">Spare amount</label>
+              </div>
+              <div class="field-body">
+                <div class="field">
+                  <p class="control is-expanded has-icons-left">
+                    <input class="input" type="text" placeholder="sizeW">
+                  </p>
+                </div>
+              </div>
+            </div>
+
+    <label class="checkbox">
+      <input type="checkbox">
+      Art work
+    </label>
+
+    <label class="checkbox">
+      <input type="checkbox">
+      Print digital
+    </label>
+
+    <label class="checkbox">
+      <input type="checkbox">
+      Mock up
+    </label>
+
+    <label class="checkbox">
+      <input type="checkbox">
+      Proof plate
+    </label>
+
+    <label class="checkbox">
+      <input type="checkbox">
+      Plate
+    </label>
+
+    <label class="checkbox">
+      <input type="checkbox">
+      Coat
+    </label>
+
+    <label class="checkbox">
+      <input type="checkbox">
+      Di-cut
+    </label>
+
+    <label class="checkbox">
+      <input type="checkbox">
+      Patch
+    </label>
+
+    <label class="checkbox">
+      <input type="checkbox">
+      Form up
+    </label>
+
+    <label class="checkbox">
+      <input type="checkbox">
+      etc.
+    </label>
+
+    </div>
+
+    <div class="column">
+      <!-- hello  --> hello
+      <nav class="pagination is-small" role="navigation" aria-label="pagination">
+        <a class="pagination-previous">Previous</a>
+        <a class="pagination-next">Next page</a>
+        <ul class="pagination-list">
+          <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
+          <li><span class="pagination-ellipsis">&hellip;</span></li>
+          <li><a class="pagination-link" aria-label="Goto page 45">45</a></li>
+          <li><a class="pagination-link is-current" aria-label="Page 46" aria-current="page">46</a></li>
+          <li><a class="pagination-link" aria-label="Goto page 47">47</a></li>
+          <li><span class="pagination-ellipsis">&hellip;</span></li>
+          <li><a class="pagination-link" aria-label="Goto page 86">86</a></li>
+        </ul>
+      </nav>
+
+    </div>
+    </div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <strong>mprint app</strong> by Bella Thana. The source code and website contents
+        are licensed.
+      </p>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

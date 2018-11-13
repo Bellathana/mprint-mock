@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mprint - add paper</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+  </head>
+  <body>
+    <section class="hero is-primary">
+<div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Add new paper to stock
+          </h1>
+          <h2 class="subtitle">
+            New paper need to have prototype.
+          </h2>
+        </div>
+      </div>
+
+      <div class="tabs is-centered">
+          <ul>
+          <li><a href="../order/viewOrder.html">Order</a></li>
+          <li><a href="../calcu/viewCalcu.html">Calculation</a></li>
+          <li><a href="../supplier/viewSupplier.html">Supplier</a></li>
+          <li class="is-active"><a href="../paper/viewPaper.html">Paper</a></li>
+          <li><a href="../provider/viewProvider.html">Provider</a></li>
+          <li><a href="../customer/viewCustomer.html">Customer</a></li>
+          </ul>
+          </div>
+    </section>
+
+<section class="container is-fluid">
+<div class="columns">
+  <div class="column">
+
+<div class="field is-horizontal">
+  <div class="field-label is-normal">
+    <label class="label">Paper Type</label>
+  </div>
+    <div class="field-body">
+      <div class="field is-narrow">
+      <div class="control">
+        <div class="select">
+          <select>
+            <option>Card</option>
+            <option>Sticker</option>
+            <option>Food grade</option>
+            <option>**From database**</option>
+          </select>
+        </div>
+      </div>
+      </div>
+      <a class="button" href="../paper/addPaperPrototype.html">New paper type</a>
+    </div>
+    </div>
+
+    <div class="field is-horizontal">
+      <div class="field-label is-normal">
+        <label class="label">Supplier name</label>
+      </div>
+    <div class="field-body">
+      <div class="field is-narrow">
+      <div class="control">
+        <div class="select">
+          <select>
+            <option>Yamaha</option>
+            <option>Honda</option>
+            <option>Lion</option>
+            <option>**From database**</option>
+          </select>
+        </div>
+      </div>
+      </div>
+      <a class="button" href="../supplier/addSupplier.html">New supplier</a>
+    </div>
+    </div>
+
+    <div class="field is-horizontal">
+      <div class="field-label is-normal">
+        <label class="label">Paper size</label>
+      </div>
+    <div class="field-body">
+      <div class="field is-narrow">
+      <div class="control">
+        <div class="select">
+          <select>
+            <option>**From database**</option>
+          </select>
+        </div>
+      </div>
+      </div>
+      <a class="button">22x34</a>
+      <a class="button">24x34</a>
+      <a class="button">24x35</a>
+      <a class="button">27x34</a>
+      <a class="button">31x43</a>
+    </div>
+    </div>
+
+    <div class="field is-horizontal">
+      <div class="field-label is-normal">
+        <label class="label">Brand</label>
+      </div>
+      <div class="field-body">
+        <div class="field">
+          <p class="control is-expanded has-icons-left">
+            <input class="input" type="text" placeholder="sizeW">
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="field is-horizontal">
+      <div class="field-label is-normal">
+        <label class="label">Gram</label>
+      </div>
+      <div class="field-body">
+        <div class="field">
+          <p class="control is-expanded has-icons-left">
+            <input class="input" type="text" placeholder="sizeW">
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="field is-horizontal">
+      <div class="field-label is-normal">
+        <label class="label">Amount/pack</label>
+      </div>
+      <div class="field-body">
+        <div class="field">
+          <p class="control is-expanded has-icons-left">
+            <input class="input" type="text" placeholder="sizeW">
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="field is-horizontal">
+      <div class="field-label is-normal">
+        <label class="label">Price/ ream</label>
+      </div>
+      <div class="field-body">
+        <div class="field">
+          <p class="control is-expanded has-icons-left">
+            <input class="input" type="text" placeholder="sizeW">
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="field is-horizontal">
+      <div class="field-label is-normal">
+        <label class="label">Price/ Kg.</label>
+      </div>
+      <div class="field-body">
+        <div class="field">
+          <p class="control is-expanded has-icons-left">
+            <input class="input" type="text" placeholder="sizeW">
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="field is-horizontal">
+      <div class="field-label is-normal">
+        <label class="label">Price/ sheet</label>
+      </div>
+      <div class="field-body">
+        <div class="field">
+          <p class="control is-expanded has-icons-left">
+            <input class="input" type="text" placeholder="sizeW">
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="field is-grouped is-grouped-right">
+      <div class="control">
+        <button class="button is-primary">Submit</button>
+      </div>
+      <div class="control">
+        <button class="button is-text">Cancel</button>
+      </div>
+    </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <strong>mprint app</strong> by Bella Thana. The source code and website contents
+        are licensed.
+      </p>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

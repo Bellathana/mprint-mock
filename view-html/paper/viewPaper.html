@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mprint - view paper</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+  </head>
+  <body>
+
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Paper stock
+          </h1>
+          <h2 class="subtitle">
+            Subtitle
+          </h2>
+        </div>
+      </div>
+      <div class="tabs is-centered">
+          <ul>
+            <li><a href="../order/viewOrder.html">Order</a></li>
+            <li><a href="../calcu/viewCalcu.html">Calculation</a></li>
+            <li><a href="../supplier/viewSupplier.html">Supplier</a></li>
+            <li class="is-active"><a href="../paper/viewPaper.html">Paper</a></li>
+            <li><a href="../provider/viewProvider.html">Provider</a></li>
+            <li><a href="../customer/viewCustomer.html">Customer</a></li>
+          </ul>
+          </div>
+    </section>
+
+<div class="field has-addons is-horizontal">
+  <div class="field has-addons">
+    <div class="control">
+      <input class="input" type="text" placeholder="PaperID or supplierID">
+    </div>
+    <div class="control">
+      <a class="button is-info">
+        Search
+      </a>
+    </div>
+  </div>
+  <div class="field is-grouped">
+    <p class="control">
+      <a class="button is-link" href="../paper/addPaper.html">
+        New paper
+      </a>
+    </p>
+    <p class="control">
+      <a class="button is-danger">
+        Remove
+      </a>
+    </p>
+  </div>
+</div>
+
+<div class="content">
+<table>
+    <thead>
+      <tr>
+<th>
+<label class="checkbox">
+  <input type="checkbox">
+</label>
+</th>
+        <th>Paper type</th>
+        <th>Size</th>
+        <th>Unit</th>
+        <th>Gram</th>
+        <th>Price per Pack/ sheet/ kg</th>
+        <th>Supplier</th>
+        <th>Last retrived by</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <label class="checkbox">
+            <input type="checkbox">
+          </label>
+      </td>
+        <td><a href="../paper/addPaper.html" title="paper name here">Three</td>
+        <td>Four</td>
+      </tr>
+      <tr>
+        <td>
+          <label class="checkbox">
+          <input type="checkbox">
+        </label>
+      </td>
+        <td>Five</td>
+        <td>Six</td>
+      </tr>
+      <tr>
+        <td>
+          <label class="checkbox">
+          <input type="checkbox">
+        </label>
+      </td>
+        <td>Seven</td>
+        <td>Eight</td>
+      </tr>
+      <tr>
+        <td>
+          <label class="checkbox">
+          <input type="checkbox">
+        </label>
+      </td>
+        <td>Nine</td>
+        <td>Ten</td>
+      </tr>
+      <tr>
+        <td>
+          <label class="checkbox">
+          <input type="checkbox">
+        </label>
+      </td>
+        <td>Eleven</td>
+        <td>Twelve</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <strong>mprint app</strong> by Bella Thana. The source code and website contents
+        are licensed.
+      </p>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

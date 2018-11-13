@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mprint - add paper prototype</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+  </head>
+  <body>
+
+
+<section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Add new paper prototype
+          </h1>
+          <h2 class="subtitle">
+            The prototype of the paer/ display here.
+          </h2>
+        </div>
+      </div>
+      <div class="tabs is-centered">
+          <ul>
+          <li><a href="../order/viewOrder.html">Order</a></li>
+          <li><a href="../calcu/printCal1.html">Calculation</a></li>
+          <li><a href="../supplier/viewSupplier.html">Supplier</a></li>
+          <li class="is-active"><a href="../paper/viewPaper.html">Paper</a></li>
+          <li><a href="../provider/viewProvider.html">Provider</a></li>
+          <li><a href="../customer/viewCustomer.html">Customer</a></li>
+          </ul>
+          </div>
+    </section>
+<form action="/addprotype" method="POST">
+<section class="container is-fluid">
+<div class="columns">
+
+  <div class="column">
+
+    <div class="field is-horizontal">
+      <div class="field-label is-normal">
+      <label class="label">Paper type or name</label>
+    </div>
+    <div class="field-body">
+      <div class="field-label">
+      <div class="control">
+        <input class="input" type="text" placeholder="name" name="name">
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="field is-horizontal">
+      <div class="field-label is-normal">
+        <label class="label">Size W</label>
+      </div>
+      <div class="field-body">
+        <div class="field">
+          <p class="control is-expanded has-icons-left">
+            <input class="input" type="text" placeholder="w" name="w">
+          </p>
+        </div>
+      </div>
+      <div class="field-label is-normal">
+        <label class="label">x H</label>
+      </div>
+      <div class="field-body">
+        <div class="field">
+          <p class="control is-expanded has-icons-left">
+            <input class="input" type="text" placeholder="h" name="h">
+          </p>
+        </div>
+      </div>
+      <div class="field">
+      <div class="control">
+      <label class="radio">
+        <input type="radio" name="unit" placeholder="unit" name="unit">
+        inch
+      </label>
+      <label class="radio">
+        <input type="radio" name="unit" placeholder="unit" name="unit">
+        cm
+      </label>
+      </div>
+      </div>
+    </div>
+
+<a class="button">22x34</a>
+<a class="button">24x34</a>
+<a class="button">24x35</a>
+<a class="button">27x34</a>
+<a class="button">31x43</a>
+
+<div class="field-label is-normal">
+  <label class="label">Gram</label>
+</div>
+<div class="field-body">
+  <div class="field">
+    <p class="control is-expanded has-icons-left">
+      <input class="input" type="text" placeholder="gram" name="gram">
+    </p>
+  </div>
+</div>
+
+<a class="button">60</a>
+<a class="button">70</a>
+<a class="button">100</a>
+<a class="button">120</a>
+<a class="button">200</a>
+<a class="button">500</a>
+
+    <div class="field is-grouped is-grouped-left">
+      <div class="control">
+        <button class="button is-primary">Save prototype</button>
+      </div>
+      <div class="control">
+        <button class="button is-text">Cancel</button>
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="column">
+
+    <div class="content">
+
+    <table>
+        <thead>
+          <tr>
+            <th>One</th>
+            <th>Two</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Three</td>
+            <td>Four</td>
+          </tr>
+          <tr>
+            <td>Five</td>
+            <td>Six</td>
+          </tr>
+          <tr>
+            <td>Seven</td>
+            <td>Eight</td>
+          </tr>
+          <tr>
+            <td>Nine</td>
+            <td>Ten</td>
+          </tr>
+          <tr>
+            <td>Eleven</td>
+            <td>Twelve</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+</div>
+</section>
+</form>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <strong>mprint app</strong> by Bella Thana. The source code and website contents
+        are licensed.
+      </p>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
